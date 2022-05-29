@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ess/logo.png" type="image/x-icon">
+    <title>Realtime_Chat_App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav>
+        <img class="logo" src="ess/logo.png" alt="">
+        <h1 class="heading">Welcome To Realtime Chat Application</h1>
+    </nav>
+
+    <div class="container">
+        <!-- <div class="message right">Hello Left, This is R</div>
+        <div class="message left">Hello Right, This is L</div> -->
+    </div>
+
+    <div class="send">
+        <form id="send-container" action="#">
+            <input type="text" name="messageInp" id="messageInp" autocomplete="off">
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+
+    <!-- <script defer type="module" src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <!-- <script defer src="client.js"></script> -->
+    <script defer type="module" src="js/client.js"></script>
+
+</body>
+</html>
